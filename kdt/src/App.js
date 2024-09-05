@@ -1,5 +1,5 @@
-import PhotoList from './PhotoList.js';
-import photoList from './PhotoList.js'
+import PhotoList from "./PhotoList.js";
+
 const DUMMY_DATA = [
     [
         {
@@ -429,11 +429,11 @@ const DUMMY_DATA = [
 ];
 
 export default function App({ $target }) {
-    const $h1 = document.createElement('h1')
-    $h1.innerText = 'Cat Photos'
-    $target.appendChild($h1)
+    const $h1 = document.createElement("h1");
+    $h1.innerText = "Cat Photos";
+    $target.appendChild($h1);
     const photoListComponent = new PhotoList({
         $target,
-        initialState: DUMMY_DATA
-    })
+        initialState: DUMMY_DATA,
+    });
 }
