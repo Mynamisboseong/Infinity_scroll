@@ -1,4 +1,4 @@
-import PhotoList from "./PhotoList.js";
+import PhotoList from "./PhotoList.js"
 
 const DUMMY_DATA = [
     [
@@ -19,7 +19,7 @@ const DUMMY_DATA = [
                         "https://misc-api-static.s3.ap-northeast-2.amazonaws.com/cat-photos/20201217_012751.jpg",
                     published_at: "2021-08-22T12:09:21.753Z",
                     created_at: "2021-08-22T12:09:20.857Z",
-                    updated_at: "2021-08-22T12:11:16.963Z",
+                    updated_at: "2021-08-22T12:11:16.963Z"
                 },
                 {
                     id: 3,
@@ -30,9 +30,9 @@ const DUMMY_DATA = [
                         "https://misc-api-static.s3.ap-northeast-2.amazonaws.com/cat-photos/20210821_075630.jpg",
                     published_at: "2021-08-22T12:09:49.615Z",
                     created_at: "2021-08-22T12:09:48.793Z",
-                    updated_at: "2021-08-22T12:12:14.809Z",
-                },
-            ],
+                    updated_at: "2021-08-22T12:12:14.809Z"
+                }
+            ]
         },
         {
             id: 2,
@@ -51,9 +51,9 @@ const DUMMY_DATA = [
                         "https://misc-api-static.s3.ap-northeast-2.amazonaws.com/cat-photos/20210821_075630.jpg",
                     published_at: "2021-08-22T12:09:49.615Z",
                     created_at: "2021-08-22T12:09:48.793Z",
-                    updated_at: "2021-08-22T12:12:14.809Z",
-                },
-            ],
+                    updated_at: "2021-08-22T12:12:14.809Z"
+                }
+            ]
         },
         {
             id: 3,
@@ -72,9 +72,9 @@ const DUMMY_DATA = [
                         "https://misc-api-static.s3.ap-northeast-2.amazonaws.com/cat-photos/20210814_144059.jpg",
                     published_at: "2021-08-22T12:10:09.320Z",
                     created_at: "2021-08-22T12:10:08.334Z",
-                    updated_at: "2021-08-22T12:11:39.119Z",
-                },
-            ],
+                    updated_at: "2021-08-22T12:11:39.119Z"
+                }
+            ]
         },
         {
             id: 4,
@@ -93,9 +93,9 @@ const DUMMY_DATA = [
                         "https://misc-api-static.s3.ap-northeast-2.amazonaws.com/cat-photos/20201217_012751.jpg",
                     published_at: "2021-08-22T12:09:21.753Z",
                     created_at: "2021-08-22T12:09:20.857Z",
-                    updated_at: "2021-08-22T12:11:16.963Z",
-                },
-            ],
+                    updated_at: "2021-08-22T12:11:16.963Z"
+                }
+            ]
         },
         {
             id: 5,
@@ -114,9 +114,9 @@ const DUMMY_DATA = [
                         "https://misc-api-static.s3.ap-northeast-2.amazonaws.com/cat-photos/20210313_163131.jpg",
                     published_at: "2021-08-22T12:09:36.820Z",
                     created_at: "2021-08-22T12:09:35.882Z",
-                    updated_at: "2021-08-22T12:12:38.734Z",
-                },
-            ],
+                    updated_at: "2021-08-22T12:12:38.734Z"
+                }
+            ]
         },
         {
             id: 6,
@@ -135,9 +135,9 @@ const DUMMY_DATA = [
                         "https://misc-api-static.s3.ap-northeast-2.amazonaws.com/cat-photos/20210821_075630.jpg",
                     published_at: "2021-08-22T12:09:49.615Z",
                     created_at: "2021-08-22T12:09:48.793Z",
-                    updated_at: "2021-08-22T12:12:14.809Z",
-                },
-            ],
+                    updated_at: "2021-08-22T12:12:14.809Z"
+                }
+            ]
         },
         {
             id: 7,
@@ -156,9 +156,9 @@ const DUMMY_DATA = [
                         "https://misc-api-static.s3.ap-northeast-2.amazonaws.com/cat-photos/20201217_012751.jpg",
                     published_at: "2021-08-22T12:09:21.753Z",
                     created_at: "2021-08-22T12:09:20.857Z",
-                    updated_at: "2021-08-22T12:11:16.963Z",
-                },
-            ],
+                    updated_at: "2021-08-22T12:11:16.963Z"
+                }
+            ]
         },
         {
             id: 8,
@@ -177,9 +177,9 @@ const DUMMY_DATA = [
                         "https://misc-api-static.s3.ap-northeast-2.amazonaws.com/cat-photos/20201217_012751.jpg",
                     published_at: "2021-08-22T12:09:21.753Z",
                     created_at: "2021-08-22T12:09:20.857Z",
-                    updated_at: "2021-08-22T12:11:16.963Z",
-                },
-            ],
+                    updated_at: "2021-08-22T12:11:16.963Z"
+                }
+            ]
         },
         {
             id: 9,
@@ -198,7 +198,7 @@ const DUMMY_DATA = [
                         "https://misc-api-static.s3.ap-northeast-2.amazonaws.com/cat-photos/20201217_012751.jpg",
                     published_at: "2021-08-22T12:09:21.753Z",
                     created_at: "2021-08-22T12:09:20.857Z",
-                    updated_at: "2021-08-22T12:11:16.963Z",
+                    updated_at: "2021-08-22T12:11:16.963Z"
                 },
                 {
                     id: 3,
@@ -209,7 +209,7 @@ const DUMMY_DATA = [
                         "https://misc-api-static.s3.ap-northeast-2.amazonaws.com/cat-photos/20210821_075630.jpg",
                     published_at: "2021-08-22T12:09:49.615Z",
                     created_at: "2021-08-22T12:09:48.793Z",
-                    updated_at: "2021-08-22T12:12:14.809Z",
+                    updated_at: "2021-08-22T12:12:14.809Z"
                 },
                 {
                     id: 2,
@@ -220,9 +220,9 @@ const DUMMY_DATA = [
                         "https://misc-api-static.s3.ap-northeast-2.amazonaws.com/cat-photos/20210313_163131.jpg",
                     published_at: "2021-08-22T12:09:36.820Z",
                     created_at: "2021-08-22T12:09:35.882Z",
-                    updated_at: "2021-08-22T12:12:38.734Z",
-                },
-            ],
+                    updated_at: "2021-08-22T12:12:38.734Z"
+                }
+            ]
         },
         {
             id: 10,
@@ -241,7 +241,7 @@ const DUMMY_DATA = [
                         "https://misc-api-static.s3.ap-northeast-2.amazonaws.com/cat-photos/20201217_012751.jpg",
                     published_at: "2021-08-22T12:09:21.753Z",
                     created_at: "2021-08-22T12:09:20.857Z",
-                    updated_at: "2021-08-22T12:11:16.963Z",
+                    updated_at: "2021-08-22T12:11:16.963Z"
                 },
                 {
                     id: 3,
@@ -252,7 +252,7 @@ const DUMMY_DATA = [
                         "https://misc-api-static.s3.ap-northeast-2.amazonaws.com/cat-photos/20210821_075630.jpg",
                     published_at: "2021-08-22T12:09:49.615Z",
                     created_at: "2021-08-22T12:09:48.793Z",
-                    updated_at: "2021-08-22T12:12:14.809Z",
+                    updated_at: "2021-08-22T12:12:14.809Z"
                 },
                 {
                     id: 4,
@@ -263,9 +263,9 @@ const DUMMY_DATA = [
                         "https://misc-api-static.s3.ap-northeast-2.amazonaws.com/cat-photos/20210814_144059.jpg",
                     published_at: "2021-08-22T12:10:09.320Z",
                     created_at: "2021-08-22T12:10:08.334Z",
-                    updated_at: "2021-08-22T12:11:39.119Z",
-                },
-            ],
+                    updated_at: "2021-08-22T12:11:39.119Z"
+                }
+            ]
         },
         {
             id: 11,
@@ -284,9 +284,9 @@ const DUMMY_DATA = [
                         "https://misc-api-static.s3.ap-northeast-2.amazonaws.com/cat-photos/20210814_144059.jpg",
                     published_at: "2021-08-22T12:10:09.320Z",
                     created_at: "2021-08-22T12:10:08.334Z",
-                    updated_at: "2021-08-22T12:11:39.119Z",
-                },
-            ],
+                    updated_at: "2021-08-22T12:11:39.119Z"
+                }
+            ]
         },
         {
             id: 12,
@@ -305,7 +305,7 @@ const DUMMY_DATA = [
                         "https://misc-api-static.s3.ap-northeast-2.amazonaws.com/cat-photos/20201217_012751.jpg",
                     published_at: "2021-08-22T12:09:21.753Z",
                     created_at: "2021-08-22T12:09:20.857Z",
-                    updated_at: "2021-08-22T12:11:16.963Z",
+                    updated_at: "2021-08-22T12:11:16.963Z"
                 },
                 {
                     id: 4,
@@ -316,9 +316,9 @@ const DUMMY_DATA = [
                         "https://misc-api-static.s3.ap-northeast-2.amazonaws.com/cat-photos/20210814_144059.jpg",
                     published_at: "2021-08-22T12:10:09.320Z",
                     created_at: "2021-08-22T12:10:08.334Z",
-                    updated_at: "2021-08-22T12:11:39.119Z",
-                },
-            ],
+                    updated_at: "2021-08-22T12:11:39.119Z"
+                }
+            ]
         },
         {
             id: 13,
@@ -337,9 +337,9 @@ const DUMMY_DATA = [
                         "https://misc-api-static.s3.ap-northeast-2.amazonaws.com/cat-photos/20210821_075630.jpg",
                     published_at: "2021-08-22T12:09:49.615Z",
                     created_at: "2021-08-22T12:09:48.793Z",
-                    updated_at: "2021-08-22T12:12:14.809Z",
-                },
-            ],
+                    updated_at: "2021-08-22T12:12:14.809Z"
+                }
+            ]
         },
         {
             id: 14,
@@ -358,9 +358,9 @@ const DUMMY_DATA = [
                         "https://misc-api-static.s3.ap-northeast-2.amazonaws.com/cat-photos/20210821_075630.jpg",
                     published_at: "2021-08-22T12:09:49.615Z",
                     created_at: "2021-08-22T12:09:48.793Z",
-                    updated_at: "2021-08-22T12:12:14.809Z",
-                },
-            ],
+                    updated_at: "2021-08-22T12:12:14.809Z"
+                }
+            ]
         },
         {
             id: 15,
@@ -379,9 +379,9 @@ const DUMMY_DATA = [
                         "https://misc-api-static.s3.ap-northeast-2.amazonaws.com/cat-photos/20210814_144059.jpg",
                     published_at: "2021-08-22T12:10:09.320Z",
                     created_at: "2021-08-22T12:10:08.334Z",
-                    updated_at: "2021-08-22T12:11:39.119Z",
-                },
-            ],
+                    updated_at: "2021-08-22T12:11:39.119Z"
+                }
+            ]
         },
         {
             id: 16,
@@ -400,9 +400,9 @@ const DUMMY_DATA = [
                         "https://misc-api-static.s3.ap-northeast-2.amazonaws.com/cat-photos/20210313_163131.jpg",
                     published_at: "2021-08-22T12:09:36.820Z",
                     created_at: "2021-08-22T12:09:35.882Z",
-                    updated_at: "2021-08-22T12:12:38.734Z",
-                },
-            ],
+                    updated_at: "2021-08-22T12:12:38.734Z"
+                }
+            ]
         },
         {
             id: 17,
@@ -421,19 +421,19 @@ const DUMMY_DATA = [
                         "https://misc-api-static.s3.ap-northeast-2.amazonaws.com/cat-photos/20210814_144059.jpg",
                     published_at: "2021-08-22T12:10:09.320Z",
                     created_at: "2021-08-22T12:10:08.334Z",
-                    updated_at: "2021-08-22T12:11:39.119Z",
-                },
-            ],
-        },
-    ],
-];
+                    updated_at: "2021-08-22T12:11:39.119Z"
+                }
+            ]
+        }
+    ]
+]
 
 export default function App({ $target }) {
-    const $h1 = document.createElement("h1");
-    $h1.innerText = "Cat Photos";
-    $target.appendChild($h1);
+    const $h1 = document.createElement("h1")
+    $h1.innerText = "Cat Photos"
+    $target.appendChild($h1)
     const photoListComponent = new PhotoList({
         $target,
-        initialState: DUMMY_DATA,
-    });
+        initialState: DUMMY_DATA
+    })
 }
